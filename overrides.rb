@@ -87,13 +87,6 @@ end
 #    pkg.define "CMAKE_CXX_FLAGS", "-std=c++11 #{pkg.defines['CMAKE_CXX_FLAGS']}"
 #end
 
-Autoproj.manifest.each_autobuild_package do |pkg|
-    next if !pkg.kind_of?(Autobuild::Orogen)
-    pkg.orogen_options << '--extensions=cpp_proxies,modelExport,metadata_support'
-    pkg.depends_on 'tools/orogen_cpp_proxies'
-    pkg.depends_on 'tools/orogen_model_exporter'
-    pkg.depends_on 'tools/orogen_metadata'
-end
 
 
 #Autobuild::Package['tools/logger'].define "CMAKE_CXX_FLAGS", "-std=c++11"
