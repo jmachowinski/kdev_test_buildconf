@@ -1,0 +1,192 @@
+---
+
+- drivers/*:
+    branch: master
+    tag: ~
+
+- rtt:
+    branch: master 
+    tag: ~
+    commit: ~
+- orogen:    
+    branch: master
+    tag: ~
+- typelib:    
+    branch: master
+    tag: ~
+- tools/orocos.rb:    
+    branch: master
+    tag: ~
+- tools/roby:
+    branch: master
+    tag: ~
+- tools/metaruby:
+    branch: master
+    tag: ~
+- tools/service_discovery:
+    branch: master
+    tag: ~
+- base/scripts:
+    branch: master
+    tag: ~
+- gui/vizkit:    
+    branch: master
+    tag: ~
+- gui/vizkit3d:    
+    branch: master
+    tag: ~
+- gui/robot_model:
+    branch: master
+    tag: ~
+- base/numeric:
+    github: arneboe/base-numeric
+    branch: master-arne
+    tag: ~
+- base/templates/doc:
+    github: rock-core/base-templates-doc
+    branch: rock-rc
+# required to be on the master branch due to the tools/orogen_metadata
+# since orogen_metadata is not in the stable yet and is required by monster interface
+- base/orogen/std:
+    branch: master
+    tag: ~
+- control/orogen/skid4_control:
+    branch: master
+    tag: ~ 
+- gui/control_ui:
+    github: jmachowinski/gui-control_ui
+    branch: master
+    tag: ~
+- slam/orogen/tilt_scan:
+    branch: master
+    tag: ~
+
+- tools/orogen_metadata:
+    branch: master
+    tag: ~
+# patch for orocos_cpp_base: add dependency to rtt
+- drivers/orogen/transformer:
+    branch: orocos_cpp
+    tag: ~
+#- simulation/orogen/mars_core:
+#    branch: rock-rc
+# no stable branch
+- simulation/mars/*:
+#    github: jmachowinski/mars
+    branch: master
+    tag:
+- tools/configmaps:
+    branch: restructured
+    tag: ~
+- simulation/lib_manager:
+    branch: master
+    tag:
+
+- tools/datalogger:
+    branch: master    
+    tag: ~
+# stable branch of monster interface is from 2012
+# so go to master
+- drivers/monster_interface:
+    branch: master
+    tag: ~
+# stable branch of monster interface is from 2012
+# so go to master
+- drivers/orogen/monster_interface:
+    branch: master
+    tag: ~
+# need ablity to load other graphicsmanager
+- simulation/orogen/mars:
+#    github: planthaber/simulation-orogen-mars
+    branch: master
+    tag: ~
+     
+- tools/smurf:
+    branch: master
+    tag: ~ 
+#patch in SMURFParser
+- simulation/smurf_parser:
+    github: arneboe/smurf_parser
+    branch: master
+    tag: ~    
+
+- drivers/hbridge:
+    branch: master
+    tag: ~    
+
+- drivers/orogen/hbridge:
+    branch: master
+    tag: ~   
+
+- simulation/entity_generation:
+    branch: master
+    tag: ~
+    commit: ~ 
+
+
+- planning/ompl:
+    tag: ~
+    branch: master
+
+- slam/g2o:
+    type: git
+    github: RainerKuemmerle/g2o
+    patches:
+        - $AUTOPROJ_SOURCE_DIR/remotes/rock/patches/g2o_build4.patch
+
+- planning/motion_planning_libraries:
+    branch: master
+    tag: ~
+- planning/orogen/motion_planning_libraries:
+    branch: master
+    tag: ~
+    
+- utilrb:
+    branch: master
+    tag: ~
+
+- planning/ompl:
+    tag: ~
+    branch: 1.2.1
+    
+- slam/g2o:
+    type: git
+    github: RainerKuemmerle/g2o
+    patches:
+        - $AUTOPROJ_SOURCE_DIR/patches/g2o_build4.patch
+#        - $AUTOPROJ_SOURCE_DIR/remotes/rock/patches/g2o_linker.patch
+
+- base/console_bridge:
+    branch: master
+    tag: ~
+
+# Eventually urdfdom should be switched to 1.0.0 (this requires a lot of boost::shared_ptr-fixes, however)
+- control/urdfdom:
+    branch: 0.4
+    tag: ~
+    commit: ~
+- control/urdfdom_headers:
+    branch: 0.4
+    tag: ~
+    commit: ~
+
+- drivers/orogen/servo_dynamixel:
+    branch: master
+    tag: ~
+- drivers/dynamixel:
+    branch: master
+    tag: ~
+- drivers/orogen/hokuyo:
+    branch: master
+    tag: ~
+- drivers/hokuyo:
+    branch: master
+    tag: ~
+
+- external/minizip:
+    mode: 3
+    no_subdirectory: true
+    archive_dir: 
+    url: http://www.winimage.com/zLibDll/unzip101e.zip
+    patches: 
+         - [$AUTOPROJ_SOURCE_DIR/remotes/rock.simulation/minizip.patch, 1]

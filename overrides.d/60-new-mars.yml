@@ -1,0 +1,13 @@
+#---
+#- pkg_set:github:/envire/package_set.git:
+#    branch: new_mars
+#    tag: ~
+#    commit: 
+- simulation/mars/.*:
+    github: envire/simulation-envire_mars
+    branch: master
+    tag:
+- simulation/orogen/mars:
+    github: envire/simulation-orogen-envire_mars
+    branch: master
+    tag: 

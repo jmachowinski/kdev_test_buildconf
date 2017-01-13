@@ -1,0 +1,23 @@
+---
+- pkg_set:github:/envire/package_set.git:
+    branch: master
+    tag: ~
+    commit: 
+- base/types:
+    branch: master
+    tag: ~
+    commit:
+- base/orogen/types:
+    branch: master
+    tag: ~
+    commit:
+
+- slam/pcl:
+    branch: master
+    tag: pcl-1.8.0
+    commit: ~
+
+- planning/motion_planning_libraries:
+   github: arneboe/planning-motion_planning_libraries
+   branch: master-arne
+   tag: ~

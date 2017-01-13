@@ -1,0 +1,20 @@
+---
+- drivers/velodyne_lidar:
+    branch: master
+    tag: ~
+    commit: ~
+
+- drivers/orogen/velodyne_lidar:
+    branch: master
+    tag: ~
+    commit: ~
+
+- slam/orogen/graph_slam:
+    branch: master
+    tag: ~
+    commit: ~
+
+- slam/graph_slam:
+    branch: master
+    tag: ~
+    commit: ~

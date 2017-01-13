@@ -1,0 +1,12 @@
+---
+
+- slam/pcl:
+   github: PointCloudLibrary/pcl
+   branch: master
+   tag: pcl-1.8.0
+
+- slam/orogen/pcl:
+  branch: entern
+
+- gui/vizkit3d_pcl:
+  branch: entern

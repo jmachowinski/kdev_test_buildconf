@@ -1,0 +1,5 @@
+---
+- control/orogen/trajectory_generation:
+    branch: Acceleration
+    tag: ~
+    commit:

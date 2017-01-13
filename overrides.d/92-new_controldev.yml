@@ -1,0 +1,10 @@
+---
+# needed by envire_core
+- drivers/controldev:
+    branch: cleanup
+    commit: ~
+    tag: ~
+- drivers/orogen/controldev:
+    branch: cleanup
+    commit: ~
+    tag: ~

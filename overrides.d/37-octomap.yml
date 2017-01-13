@@ -1,0 +1,4 @@
+---
+- slam/octomap:
+    branch: devel
+    commit: 689a09f1e0c2732b60c1ef7c85d4f6fc9ea63a2c

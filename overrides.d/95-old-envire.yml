@@ -1,0 +1,6 @@
+---
+# slam/graph_slam requires version of perception/stereo which still supports old envire:
+- perception/stereo:
+    branch: master
+    commit: 08236ed8cc348b2c72292fa7e5e08fe28f536baf
+    tag: ~

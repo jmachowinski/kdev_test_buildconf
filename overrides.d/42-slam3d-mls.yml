@@ -1,0 +1,9 @@
+---
+- slam/orogen/slam3d:
+    branch: entern
+    tag: ~
+    commit:
+- slam/slam3d:
+    branch: master
+    tag: ~
+    commit:

@@ -1,0 +1,15 @@
+---
+# needed by envire_core
+- base/types:
+    branch: master
+    commit: ~
+    tag: ~
+- base/orogen/types:
+    branch: master
+    commit: ~
+    tag: ~
+
+- gui/vizkit3d:
+  github: envire/gui-vizkit3d
+  branch: osgviz
+  tag: ~

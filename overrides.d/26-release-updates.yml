@@ -1,0 +1,56 @@
+---
+#packages, that have no release tag (only master), but must stay at a commit 
+- drivers/orogen/controldev:
+    branch: master
+    commit: ~
+    tag: ~
+- base/cmake:
+    branch: master
+    commit: ~
+    tag: ~
+- base/numeric:
+    branch: master
+    commit: ~
+    tag: ~
+
+- tools/logger:
+    branch: master
+    commit: ~
+    tag: ~
+
+- tools/pocolog_cpp:
+    branch: master
+    commit: ~
+    tag: ~
+
+- slam/envire:
+    branch: master
+    commit: ~
+    tag: ~
+- slam/pcl:
+    type: archive
+    url: 'https://github.com/PointCloudLibrary/pcl/archive/pcl-1.7.2.tar.gz'
+    update_cached_file: false
+
+- control/trajectory_follower:
+    branch: master
+    commit: ~
+    tag: ~
+
+- control/orogen/trajectory_follower:
+    branch: master
+    commit: ~
+    tag: ~
+
+- control/joint_dispatcher:
+    branch: master
+    commit: ~
+    tag: ~
+
+- control/orogen/joint_dispatcher:
+    branch: master
+    commit: ~
+    tag: ~
+
+
+

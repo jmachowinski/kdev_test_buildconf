@@ -1,0 +1,35 @@
+---
+
+- gui/rock_webapp:
+  branch: master
+  tag: ~
+  
+- tools/rest_api:
+  github: planthaber/tools-rest_api
+  branch: devel
+  tag: ~
+
+- gui/vizkit3d:
+  github: planthaber/gui-vizkit3d
+  branch: osgviz
+  tag: ~
+
+
+- gui/osgviz/osgviz:
+    branch: master
+    tag: ~
+
+#- simulation/orogen/mars:
+#    github: planthaber/simulation-orogen-mars
+#    branch: passive_joints
+
+- gui/osgviz/mars-plugins/browser:
+  branch: new_configmaps
+  tag: ~
+  
+
+- pkg_set:github:/rock-core/package_set.git:
+    tag: ~
+    branch: master
+    commit: 
+  

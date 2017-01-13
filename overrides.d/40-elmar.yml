@@ -1,0 +1,21 @@
+---
+#- tools/cnd/model:
+#    branch: dev
+
+#- tools/cpp_launcher:
+#    branch: dev
+
+#- tools/cnd/transitions:
+#    branch: dev
+
+#- tools/cnd/execution:
+#    branch: dev
+
+#- simulation/configmaps:
+#    branch: restructured 
+#    tag: ~
+#- envire/envire_smurf:
+#    branch: refactorization
+#- tools/smurf:
+#    branch: envire_smurf_cm 
+#    tag: ~

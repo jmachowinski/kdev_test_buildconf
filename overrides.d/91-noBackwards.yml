@@ -1,0 +1,120 @@
+---
+- pkg_set:github:/rock-core/package_set.git:
+    tag: ~
+    branch: master
+    commit: 
+
+- base/types:
+    branch: master
+    tag: ~
+    commit: ~
+
+- base/orogen/types:
+    branch: master
+    tag: ~
+    commit: ~
+
+- drivers/transformer:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/mb500:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/orogen/controldev:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/aggregator:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/iodrivers_base:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/canbus:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/base_schilling:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/laser_filter:
+    branch: master
+    commit: ~
+    tag: ~
+
+- gui/rock_widget_collection:
+    branch: master
+    commit: ~
+    tag: ~
+
+- image_processing/frame_helper:
+    branch: master
+    commit: ~
+    tag: ~
+
+- perception/frame_helper:
+    branch: master
+    commit: ~
+    tag: ~
+
+- image_processing/jpeg_conversion:
+    branch: master
+    commit: ~
+    tag: ~
+
+- perception/jpeg_conversion:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/orogen/canbus:
+    branch: master
+    commit: ~
+    tag: ~
+
+- slam/orogen/odometry:
+    branch: master
+    commit: ~
+    tag: ~
+
+- drivers/orogen/parport:
+    branch: master
+    commit: ~
+    tag: ~
+
+- control/motor_controller:
+    branch: master
+    commit: ~
+    tag: ~
+
+- slam/odometry:
+    branch: master
+    commit: ~
+    tag: ~
+
+- perception/stereo:
+    branch: master
+    commit: ~
+    tag: ~
+
+- perception/orogen/stereo:
+    branch: master
+    commit: ~
+    tag: ~
+
+- control/joint_dispatcher:
+    branch: master
+    commit: ~
+    tag: ~

@@ -1,0 +1,5 @@
+---
+- ndlcom/representations:
+    branch: common_fpga_joint_interface
+    tag: ~
+    commit:
